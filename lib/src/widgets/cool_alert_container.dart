@@ -11,9 +11,9 @@ class CoolAlertContainer extends StatelessWidget {
   final CoolAlertOptions options;
 
   const CoolAlertContainer({
-    Key? key,
+    super.key,
     required this.options,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {
